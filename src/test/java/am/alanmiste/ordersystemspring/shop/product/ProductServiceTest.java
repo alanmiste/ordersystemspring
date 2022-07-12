@@ -2,8 +2,6 @@ package am.alanmiste.ordersystemspring.shop.product;
 
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
-
 import java.util.List;
 
 import static org.assertj.core.api.Assertions.assertThat;
