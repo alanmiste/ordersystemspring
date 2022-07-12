@@ -1,9 +1,11 @@
 package am.alanmiste.ordersystemspring.shop.product;
 
+import org.springframework.stereotype.Repository;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
-
+@Repository
 public class ProductRepo {
 
     private final Map<Integer, Product> products = Map.of(

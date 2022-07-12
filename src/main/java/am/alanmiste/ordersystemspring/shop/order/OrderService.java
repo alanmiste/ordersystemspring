@@ -7,14 +7,14 @@ import org.springframework.stereotype.Service;
 import java.util.ArrayList;
 import java.util.List;
 
+
 @Service
 public class OrderService {
     private final ProductService productService;
     private final OrderRepo orderRepo;
 
     public OrderService(
-            ProductService productService,
-            OrderRepo orderRepo) {
+            ProductService productService, OrderRepo orderRepo) {
         this.productService = productService;
         this.orderRepo = orderRepo;
     }
